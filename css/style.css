@@ -9,7 +9,7 @@ header{
 #top-header{ 
 		
 	text-align: center; 
-	height: 60px; 
+	height: 70px; 
 } 
 
 /****************/	
@@ -19,7 +19,7 @@ header{
 	float: left; 
 	padding: none; 
 	margin: none; 
-	height: 60px; 
+	height: 70px; 
 	width: 30%; 
 } 
 
@@ -71,4 +71,28 @@ header{
 	color: #0074D9; 
 	border-left: 1px solid #0074D9; 
 	text-decoration: none; 
+} 
+
+/*****************************/
+/* Styling Header Image Menu */
+/*****************************/
+#header-image-menu{ 
+	top: 10px; 
+	position: relative; 
+} 
+
+#header-image-menu img{ 
+	width: 100%; 
+	margin: none; 
+	padding: none; 
+} 
+
+#image-text{ 
+	position: absolute; 
+	top: 60%; 
+	left: 60%; 
+	font-family: 'Roboto'; 
+	color: #000; 
+	transform: translate(-30%, -30%); 
+	text-align: center; 
 } 
